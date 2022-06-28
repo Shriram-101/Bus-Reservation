@@ -28,6 +28,10 @@ public class Bus {
 	public void setCapacity(int capacity) { // mutator
 		this.capacity = capacity;
 	}
+	
+	public int getBusNo() {
+		return busNo;
+	}
 
 	public void displayBusInfo() {
 		System.out.println("BusNo : " + busNo + ", Ac : " + ac + ", Capacity : " + capacity);
@@ -35,8 +39,6 @@ public class Bus {
 
 	public String toString() {
 
-		
-		
 		  String info = "BusNo : " + this.busNo + ", Ac : " + this.ac + ", Capacity : "
 		  + this.capacity;
 		 
@@ -45,9 +47,7 @@ public class Bus {
 			/*
 			 * System.out.println("BusNo : " + this.busNo + ", Ac : " + this.ac +
 			 * ", Capacity : " + this.capacity);
-			 */
-		  
-		 
+			 */ 
 
 		return info;
 	}
